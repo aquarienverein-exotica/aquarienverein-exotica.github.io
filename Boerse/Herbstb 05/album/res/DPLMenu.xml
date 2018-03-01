@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<DPLMenu codeDirectory="res"  maxEnlarge="1.5" >
+    
+
+<menuitem label="Album" type="hidden"  >
+     <menuitem label="Herbstb 05" imageDirectory="" filenamePrefix="" photoInfo="PhotoInfo.xml"  type="radio" toggled="true" groupName="album" ></menuitem>
+</menuitem>
+
+
+<menuitem label="View" >
+
+/* thumbnailSize may be "small", "medium" or "large" */
+<menuitem label="Horizontal Thumbnails"  autoStart="true"  delay="5" thumbnailSize="medium" type="radio" toggled="false" groupName="view" module="ThumbnailView.swf" />    
+    
+<menuitem label="Vertical Thumbnails"  autoStart="true"   thumbnailSize="medium"  delay="5" type="radio" toggled="false" groupName="view" module="VerticalListView.swf" />    
+    
+<menuitem label="Carousel"  autoStart="true"  type="radio"  delay="5" toggled="true" groupName="view" module="Carousel_View.swf" />
+    
+<menuitem label="Borderless Slide Show"  autoStart="true"  type="radio"  delay="5" toggled="false" groupName="view" module="SlideShowView.swf" />
+    
+<menuitem label="Framed Slide Show"  autoStart="true"  type="radio"  delay="5" toggled="false" groupName="view" mode="fade" module="RollingSlideshowView.swf" />
+    
+<menuitem label="Rolling Slide Show"  autoStart="true"  type="radio"  delay="5" toggled="false" groupName="view" mode="slide" module="RollingSlideshowView.swf" />
+    
+<menuitem label="Light Box"  thumbnailSize="medium" type="radio" toggled="false" groupName="view" module="LightBoxView.swf" />
+    
+<menuitem label="Photos To Movie"  autoStart="true"  type="radio" toggled="false" groupName="view" module="MovieMakerView.swf" />
+    
+</menuitem>
+
+<menuitem label="Theme" >
+
+
+<menuitem label="Black/Gray" type="radio" toggled="false" groupName="theme" 
+		  bgColor="#000010" menuBgColor="#404048" thumbBgColor="#000000" thumbSelColor="#303040" 
+		  thumbBrdrThickness="8" txtColor="#ffffff" txtThumbColor="#FFFFFF" txtHiColor="#FFFF60" 
+          photoDescFontSize="10"  frameColor="#C0C0C0" photoBrdrThickness="12" />    
+
+<menuitem label="Charcoal/Gray" type="radio" toggled="false" groupName="theme" 
+		  bgColor="#484842" menuBgColor="#404048" thumbBgColor="#484842" thumbSelColor="#787880" 
+		  thumbBrdrThickness="8" txtColor="#F0F0F0" txtThumbColor="#F0F0F0" txtHiColor="#FFFF60" 
+          photoDescFontSize="10"  frameColor="#C0C0C0" photoBrdrThickness="12" />    
+
+<menuitem label="White/Blue" type="radio" toggled="false" groupName="theme" 
+		  bgColor="#FFFFFF" menuBgColor="#F0F0F8" thumbBgColor="#FFFFFF" thumbSelColor="#d8d8e0" 
+		  thumbBrdrThickness="8" txtColor="#202060;" txtThumbColor="#202060;" txtHiColor="#309030" 
+          photoDescFontSize="10"  frameColor="#303070" photoBrdrThickness="12" />    
+<menuitem label="White/Silver" type="radio" toggled="false" groupName="theme"
+		  bgColor="#FFFFFF" menuBgColor="#F0F0F8" thumbBgColor="#FFFFFF" thumbSelColor="#d8d8e8" 
+		  thumbBrdrThickness="8" txtColor="#202060;" txtThumbColor="#202060;" txtHiColor="#309030" 
+          photoDescFontSize="10"  frameColor="#D8D8D8" photoBrdrThickness="12" />    
+
+<menuitem label="Goldenrod/Green" type="radio" toggled="false" groupName="theme"
+		  bgColor="#F0E8C8" menuBgColor="#F0F0F8" thumbBgColor="#F0E8C8" thumbSelColor="#e0d8b8" 
+		  thumbBrdrThickness="8" txtColor="#202028;" txtThumbColor="#202028;" txtHiColor="#40c040" 
+          photoDescFontSize="10"  frameColor="#205C20" photoBrdrThickness="12" />    
+
+<menuitem label="Dark Blue/White" type="radio" toggled="false" groupName="theme"
+		  bgColor="#000040" menuBgColor="#404048" thumbBgColor="#000040" thumbSelColor="#202050" 
+		  thumbBrdrThickness="8" txtColor="#ffffff" txtThumbColor="#FFFFFF" txtHiColor="#FFFF60" 
+          photoDescFontSize="10"  frameColor="#F0F0FF" photoBrdrThickness="12" />    
+
+<menuitem label="My Theme" type="radio" toggled="true" groupName="theme" 
+		  bgColor="#000040" menuBgColor="#202050"  
+          thumbBgColor="#000000" thumbSelColor="#202050"
+		  thumbBrdrThickness="8" txtColor="#ffffff"
+          txtThumbColor="#ffffff" txtHiColor="#ffff00" 
+          photoDescFontSize="10"
+		  frameColor="#ffffff" photoBrdrThickness="12" />    
+</menuitem>
+    
+    
+</DPLMenu>

@@ -1,0 +1,264 @@
+object:IconImage
+{
+	pixmap="./img_vthumb.png";
+	object :ThumbSpec
+	{
+		filename="ajbut1.gif";
+		date=22/6/1999;
+		time=22:6:38;
+		size=(85 pixel,31 pixel);
+		rect=(0;2,80,29);
+		x=3 pixel;
+		y=28 pixel;
+	};
+	object :ThumbSpec
+	{
+		filename="dampfer10.jpg";
+		date=23/11/2003;
+		time=17:29:25:109;
+		size=(420 pixel,315 pixel);
+		rect=(80,0,80,60);
+		x=3 pixel;
+		y=12 pixel;
+	};
+	object :ThumbSpec
+	{
+		filename="dampfer11.jpg";
+		date=23/11/2003;
+		time=17:32:29:609;
+		size=(420 pixel,315 pixel);
+		rect=(160,0,80,60);
+		x=3 pixel;
+		y=12 pixel;
+	};
+	object :ThumbSpec
+	{
+		filename="dampfer12.jpg";
+		date=23/11/2003;
+		time=17:29:2:468;
+		size=(420 pixel,315 pixel);
+		rect=(240,0,80,60);
+		x=3 pixel;
+		y=12 pixel;
+	};
+	object :ThumbSpec
+	{
+		filename="dampfer13.jpg";
+		date=23/11/2003;
+		time=17:28:54:218;
+		size=(420 pixel,315 pixel);
+		rect=(320,0,80,60);
+		x=3 pixel;
+		y=12 pixel;
+	};
+	object :ThumbSpec
+	{
+		filename="dampfer14.jpg";
+		date=23/11/2003;
+		time=17:28:46:250;
+		size=(420 pixel,315 pixel);
+		rect=(400,0,80,60);
+		x=3 pixel;
+		y=12 pixel;
+	};
+	object :ThumbSpec
+	{
+		filename="dampfer15.jpg";
+		date=23/11/2003;
+		time=17:28:38:968;
+		size=(420 pixel,315 pixel);
+		rect=(480,0,80,60);
+		x=3 pixel;
+		y=12 pixel;
+	};
+	object :ThumbSpec
+	{
+		filename="dampfer16.jpg";
+		date=23/11/2003;
+		time=17:34:59:984;
+		size=(420 pixel,315 pixel);
+		rect=(560,0,80,60);
+		x=3 pixel;
+		y=12 pixel;
+	};
+	object :ThumbSpec
+	{
+		filename="dampfer17.jpg";
+		date=23/11/2003;
+		time=17:28:23:625;
+		size=(420 pixel,315 pixel);
+		rect=(640,0,80,60);
+		x=3 pixel;
+		y=12 pixel;
+	};
+	object :ThumbSpec
+	{
+		filename="dampfer18.jpg";
+		date=23/11/2003;
+		time=17:28:15:343;
+		size=(420 pixel,315 pixel);
+		rect=(720,0,80,60);
+		x=3 pixel;
+		y=12 pixel;
+	};
+	object :ThumbSpec
+	{
+		filename="dampfer19.jpg";
+		date=23/11/2003;
+		time=17:28:5:750;
+		size=(420 pixel,315 pixel);
+		rect=(0,80;2,60);
+		x=3 pixel;
+		y=12 pixel;
+	};
+	object :ThumbSpec
+	{
+		filename="dampfer20.jpg";
+		date=23/11/2003;
+		time=17:33:7:875;
+		size=(420 pixel,315 pixel);
+		rect=(80;3,60);
+		x=3 pixel;
+		y=12 pixel;
+	};
+	object :ThumbSpec
+	{
+		filename="dampfer21.jpg";
+		date=23/11/2003;
+		time=17:27:36:421;
+		size=(420 pixel,315 pixel);
+		rect=(160,80;2,60);
+		x=3 pixel;
+		y=12 pixel;
+	};
+	object :ThumbSpec
+	{
+		filename="dampfer22.jpg";
+		date=23/11/2003;
+		time=17:27:28:984;
+		size=(420 pixel,315 pixel);
+		rect=(240,80;2,60);
+		x=3 pixel;
+		y=12 pixel;
+	};
+	object :ThumbSpec
+	{
+		filename="dampfer23.jpg";
+		date=23/11/2003;
+		time=17:27:19:796;
+		size=(420 pixel,315 pixel);
+		rect=(320,80;2,60);
+		x=3 pixel;
+		y=12 pixel;
+	};
+	object :ThumbSpec
+	{
+		filename="dampfer24.jpg";
+		date=23/11/2003;
+		time=22:3:29:46;
+		size=(420 pixel,315 pixel);
+		rect=(400,80;2,60);
+		x=3 pixel;
+		y=12 pixel;
+	};
+	object :ThumbSpec
+	{
+		filename="dampfer25.jpg";
+		date=23/11/2003;
+		time=17:26:54:187;
+		size=(420 pixel,315 pixel);
+		rect=(480,80;2,60);
+		x=3 pixel;
+		y=12 pixel;
+	};
+	object :ThumbSpec
+	{
+		filename="dampfer26.jpg";
+		date=23/11/2003;
+		time=17:26:45:750;
+		size=(420 pixel,315 pixel);
+		rect=(560,80;2,60);
+		x=3 pixel;
+		y=12 pixel;
+	};
+	object :ThumbSpec
+	{
+		filename="dampfer27.jpg";
+		date=23/11/2003;
+		time=17:26:37:812;
+		size=(420 pixel,315 pixel);
+		rect=(640,80;2,60);
+		x=3 pixel;
+		y=12 pixel;
+	};
+	object :ThumbSpec
+	{
+		filename="dampfer28.jpg";
+		date=23/11/2003;
+		time=17:33:36:140;
+		size=(420 pixel,315 pixel);
+		rect=(720,80;2,60);
+		x=3 pixel;
+		y=12 pixel;
+	};
+	object :ThumbSpec
+	{
+		filename="dampfer29.jpg";
+		date=23/11/2003;
+		time=17:34:13:31;
+		size=(420 pixel,315 pixel);
+		rect=(0,160,80,60);
+		x=3 pixel;
+		y=12 pixel;
+	};
+	object :ThumbSpec
+	{
+		filename="dampfer30.jpg";
+		date=23/11/2003;
+		time=17:26:4:546;
+		size=(420 pixel,315 pixel);
+		rect=(80,160,80,60);
+		x=3 pixel;
+		y=12 pixel;
+	};
+	object :ThumbSpec
+	{
+		filename="dampfer31.jpg";
+		date=23/11/2003;
+		time=17:25:55:750;
+		size=(420 pixel,315 pixel);
+		rect=(160;2,80,60);
+		x=3 pixel;
+		y=12 pixel;
+	};
+	object :ThumbSpec
+	{
+		filename="dampfer32.jpg";
+		date=23/11/2003;
+		time=22:29:22:640;
+		size=(420 pixel,315 pixel);
+		rect=(240,160,80,60);
+		x=3 pixel;
+		y=12 pixel;
+	};
+	object :ThumbSpec
+	{
+		filename="dampfer33.jpg";
+		date=23/11/2003;
+		time=17:25:30:78;
+		size=(420 pixel,315 pixel);
+		rect=(320,160,80,60);
+		x=3 pixel;
+		y=12 pixel;
+	};
+	object :ThumbSpec
+	{
+		filename="dampfer34.jpg";
+		date=23/11/2003;
+		time=17:25:13:562;
+		size=(421 pixel,316 pixel);
+		rect=(400,160,80,60);
+		x=3 pixel;
+		y=12 pixel;
+	};
+}

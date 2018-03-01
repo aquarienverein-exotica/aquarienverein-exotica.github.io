@@ -1,0 +1,75 @@
+<gallery>
+
+
+     <galleryName>3D Gallery</galleryName>
+     <items>
+          <item>
+
+
+
+               <source>rechts/gallery/images/1.jpg</source>
+          </item>
+          <item>
+
+
+
+               <source>rechts/gallery/images/2.jpg</source>
+          </item>
+          <item>
+
+
+
+               <source>rechts/gallery/images/3.jpg</source>
+          </item>
+     </items>
+     <settings>
+
+
+
+
+
+
+
+          <plate>
+
+
+
+
+               <sideColor>3355443</sideColor>
+               <color>10066329</color>
+               <sideThickness>15</sideThickness>
+               <useShadow>1</useShadow>
+               <shadowAlpha>50</shadowAlpha>
+          </plate>
+          <position>
+
+               <xAngle>10</xAngle>
+               <yAngle>30</yAngle>
+          </position>
+          <background>
+
+               <bgColor>16777215</bgColor>
+               <transparentBG>1</transparentBG>
+          </background>
+          <cameraZoom>0.6</cameraZoom>
+          <caption>
+
+
+
+
+
+
+               <bgColor>0</bgColor>
+               <fontSize>12</fontSize>
+               <textColor>16777215</textColor>
+               <fontName>Arial</fontName>
+               <frameAlpha>40</frameAlpha>
+               <frameColor>16777215</frameColor>
+               <bgAlpha>30</bgAlpha>
+          </caption>
+          <slideshowDelay>1</slideshowDelay>
+          <transition>
+               <duration>2</duration>
+          </transition>
+     </settings>
+</gallery>

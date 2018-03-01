@@ -1,0 +1,24 @@
+# This file is created by JAlbum. It sets custom file filtering and ordering for this image directory.
+# Each row indicate a file and it's order. Files not listed here are added to the end of the album
+# Rows beginning with "-" indicate excluded files.
+# Rows containing a tab character indicate links, where the text before the tab is the logical file name
+# and the path to the right is the target path.
+# Note: This file allows absolute paths to files and directories in other locations and thereby
+# allows you to compile albums consisting of files from several different locations.
+
+DSC00071.JPG	E:\Bilder Exotica\Herbstbörse 09\DSC00071.JPG
+DSC00072.JPG	E:\Bilder Exotica\Herbstbörse 09\DSC00072.JPG
+DSC00073.JPG	E:\Bilder Exotica\Herbstbörse 09\DSC00073.JPG
+DSC00074.JPG	E:\Bilder Exotica\Herbstbörse 09\DSC00074.JPG
+DSC00075.JPG	E:\Bilder Exotica\Herbstbörse 09\DSC00075.JPG
+DSC00076.JPG	E:\Bilder Exotica\Herbstbörse 09\DSC00076.JPG
+DSC00078.JPG	E:\Bilder Exotica\Herbstbörse 09\DSC00078.JPG
+DSC00080.JPG	E:\Bilder Exotica\Herbstbörse 09\DSC00080.JPG
+DSC00081.JPG	E:\Bilder Exotica\Herbstbörse 09\DSC00081.JPG
+DSC00082.JPG	E:\Bilder Exotica\Herbstbörse 09\DSC00082.JPG
+DSC00083.JPG	E:\Bilder Exotica\Herbstbörse 09\DSC00083.JPG
+DSC00084.JPG	E:\Bilder Exotica\Herbstbörse 09\DSC00084.JPG
+DSC00085.JPG	E:\Bilder Exotica\Herbstbörse 09\DSC00085.JPG
+DSC00088.JPG	E:\Bilder Exotica\Herbstbörse 09\DSC00088.JPG
+DSC00091.JPG	E:\Bilder Exotica\Herbstbörse 09\DSC00091.JPG
+DSC00092.JPG	E:\Bilder Exotica\Herbstbörse 09\DSC00092.JPG

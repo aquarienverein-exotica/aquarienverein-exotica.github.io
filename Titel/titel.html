@@ -1,0 +1,137 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+
+          "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+
+
+<head>
+
+<script language="JavaScript" type="text/JavaScript">
+
+<!--
+
+  var IntvlTimer;
+
+  var iCurSize=5;
+
+  var iStopSize=45;
+
+  function MakeBigger() {
+
+    iCurSize+=2;
+
+    document.getElementById("div1").style.fontSize=iCurSize+"px";
+
+    if (iCurSize>=iStopSize)
+
+      window.clearInterval(IntvlTimer);
+
+  }    
+
+  
+
+  function start() {
+
+    document.getElementById("div1").style.fontSize="5px";
+
+    document.getElementById("div1").style.visibility="visible";
+
+    IntvlTimer=window.setInterval("MakeBigger()",20);
+
+  }
+
+// -->
+
+</script>
+
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+
+</head>
+
+<body background="../images/backg_titel.jpg" text="#000077" bg-repeat="yes" onload="start();">
+
+  <layer id="layer1" name="layer1" top="0" left="0" height="120">
+
+  <div style="position:absolute;top:0px;left:-2px;height:79px; width:1152px">
+
+  <table border="0" cellspacing="0" cellpadding="0">
+
+  <tr><td width="240" valign="top" rowspan="2">
+
+    <img src="../images/backg_topleft.jpg" width="240" height="120" alt="">
+
+  </td>
+
+  <td width="100%">
+
+    <layer id="layer2" name="layer2">
+
+    <div id="div1" style="font-family:fantasy ;font-size:45px">
+
+    <script language="JavaScript" type="text/JavaScript">
+
+    <!--
+
+      document.getElementById("div1").style.visibility="hidden";
+
+    //-->
+
+    </script><img border="0" src="ueberschrieft.gif" width="802" height="60"> </div>  
+
+    </layer>
+
+  </td>
+
+  </tr>
+
+  <tr>
+
+  <td width="100%">
+
+    <p align="center"><b>
+	<FONT color=#0000FF size=5 face="Arial Rounded MT Bold">
+<MARQUEE width="901"><div id="output"></div></MARQUEE></FONT></b></td>
+
+  </tr></table>
+
+  </div>
+
+  </layer>
+
+	<p>&nbsp;</p>
+	
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+
+<script type='text/javascript'>
+<!--
+var message="Bitte Impressum beachten!"; 
+var closeWin="0";
+
+function IE(e) 
+{
+     if (navigator.appName == 'Microsoft Internet Explorer' && (event.button == 2 || event.button == 3))
+     {
+          alert(message); if(closeWin=="1") self.close();
+          return false;
+     }
+}
+function NS(e) 
+{
+     if (document.layers || (document.getElementById && !document.all))
+     {
+          if (e.which==2 || e.which==3)
+          {
+               alert(message); if(closeWin=="1") self.close();
+               return false;
+          }
+     }
+}
+//-->
+</script>
+<script type="text/javascript">document.onmousedown=IE;
+document.onmouseup=NS;
+document.oncontextmenu=new Function("return false");</script>
+</body>
+
+</html>
