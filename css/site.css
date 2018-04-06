@@ -115,6 +115,7 @@ footer {
     padding: 1rem;
     text-align: center;
     color: #fff;
+    clear: both;
 }
 
 footer ul {

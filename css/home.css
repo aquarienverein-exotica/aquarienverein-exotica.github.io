@@ -34,6 +34,7 @@
     margin-top: 2rem;
     color: #4a4a4a;
     padding: 1rem;
+    clear: both;
 }
 
 #partners-content {
@@ -43,9 +44,23 @@
 
 .partner {
     width: 25rem;
-    /* float: left; */
+    float: left;
     margin: 1rem;
   }
+
+.partner img {
+    width: 15rem;
+    margin: 1rem;
+}
+
+.partner a {
+    color: #4a4a4a;
+    text-decoration: none;
+}
+
+.partner a:hover {
+    text-decoration: underline;
+}
 
 section p {
     font-size: 1.5rem;
