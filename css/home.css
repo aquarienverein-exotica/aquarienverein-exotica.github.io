@@ -1,0 +1,48 @@
+#opener {
+    height: 35rem;
+    background-image: url(../images/1440x480.png);
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0;
+    position: relative;
+}
+
+#opener span {
+    /* position: absolute; */
+    background-color: rgba(5, 99, 181, 0.6);
+    display: inline-block;
+    color: #fff;
+    font-size: 1.6rem;
+}
+
+#welcome {
+    margin-top: 4rem;
+    text-align: center;
+    color: #4a4a4a;
+}
+
+section p {
+    font-size: 1.5rem;
+}
+
+.next-meeting-hint {
+    top: 50%;
+    display: inline-block;
+    position: relative; 
+    transform: translateY(-50%);
+}
+
+.next-meeting {
+    color: #fff;
+    background-color: rgba(5, 99, 181, 0.6);
+}
+
+#termine-button {
+    position: absolute;
+    bottom: 4rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
