@@ -2,26 +2,51 @@
     font-family: 'Open Sans';
     font-weight: 400;
     font-style: normal;
-    src: url("/fonts/open-sans-v15-latin-regular.woff2") format("woff2"), url("/fonts/open-sans-v15-latin-regular.woff") format("woff")
+    src: url("../fonts/open-sans-v15-latin-regular.woff2") format("woff2"), url("../fonts/open-sans-v15-latin-regular.woff") format("woff")
 }
 @font-face {
     font-family: 'Open Sans';
     font-weight: 700;
     font-style: normal;
-    src: url("/fonts/open-sans-v15-latin-700.woff2") format("woff2"), url("/fonts/open-sans-v15-latin-700.woff") format("woff")
+    src: url("../fonts/open-sans-v15-latin-700.woff2") format("woff2"), url("../fonts/open-sans-v15-latin-700.woff") format("woff")
 }
 
 @font-face {
     font-family: 'Merriweather';
     font-weight: 400;
     font-style: normal;
-    src: url("/fonts/merrieweather-v19-latin-regular.woff2") format("woff2"), url("/fonts/merrieweather-v19-latin-regular.woff") format("woff")
+    src: url("../fonts/merrieweather-v19-latin-regular.woff2") format("woff2"), url("../fonts/merrieweather-v19-latin-regular.woff") format("woff")
 }
 @font-face {
     font-family: 'Merriweather';
     font-weight: 700;
     font-style: normal;
-    src: url("/fonts/merrieweather-v19-latin-700.woff2") format("woff2"), url("/fonts/merrieweather-v19-latin-700.woff") format("woff")
+    src: url("../fonts/merrieweather-v19-latin-700.woff2") format("woff2"), url("../fonts/merrieweather-v19-latin-700.woff") format("woff")
+}
+
+@font-face {
+    font-family: 'Zilla Slab';
+    font-weight: 400;
+    font-style: normal;
+    src: url("../fonts/ZillaSlab-Regular.woff2") format("woff2"), url("../fonts/ZillaSlab-Regular.woff") format("woff")
+}
+@font-face {
+    font-family: 'Zilla Slab';
+    font-weight: 700;
+    font-style: normal;
+    src: url("../fonts/ZillaSlab-Bold.woff2") format("woff2"), url("../fonts/ZillaSlab-Bold.woff") format("woff")
+}
+@font-face {
+    font-family: 'Zilla Slab';
+    font-weight: 400;
+    font-style: italic;
+    src: url("../fonts/ZillaSlab-RegularItalic.woff2") format("woff2"), url("../fonts/ZillaSlab-RegularItalic.woff") format("woff")
+}
+@font-face {
+    font-family: 'Zilla Slab';
+    font-weight: 700;
+    font-style: italic;
+    src: url("../fonts/ZillaSlab-BoldItalic.woff2") format("woff2"), url("../fonts/ZillaSlab-BoldItalic.woff") format("woff")
 }
 
 html {
@@ -39,14 +64,14 @@ h1 {
     padding: 1rem;
     font-size: 3rem;
     text-align: center;
-    font-family: "Merriweather", serif;
+    font-family: "Zilla Slab", "Open Sans", sans-serif;
 }
 
 h2 {
     /* margin: 0; */
     padding: 1rem;
     font-size: 2rem;
-    font-family: "Merriweather", serif;
+    font-family: "Zilla Slab", "Open Sans", sans-serif;
 }
 
 header #navbar-button {
@@ -81,6 +106,34 @@ header nav a.selected {
 header #logo {
     height: 10rem;
     margin: 1.5rem 4rem;
+}
+
+footer {
+    background-color: #5d9bcA;
+    font-size: 1.3rem;
+    padding: 1rem;
+    text-align: center;
+    color: #fff;
+}
+
+footer ul {
+    padding: 0;
+    text-align: center;
+}
+
+footer li {
+    list-style-type: none;
+    display: inline;
+    padding: 1rem;
+}
+
+footer li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer li a:hover {
+    text-decoration: underline;
 }
 
 .button {

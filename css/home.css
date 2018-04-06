@@ -21,6 +21,12 @@
     margin-top: 4rem;
     text-align: center;
     color: #4a4a4a;
+    padding: 1rem;
+}
+
+#welcome-content {
+    width: 85rem;
+    margin: 0 auto;
 }
 
 section p {
