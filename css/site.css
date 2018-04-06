@@ -109,7 +109,8 @@ header #logo {
 }
 
 footer {
-    background-color: #5d9bcA;
+    /* background-color: #5d9bcA; */
+    background-color: #0563b5;
     font-size: 1.3rem;
     padding: 1rem;
     text-align: center;

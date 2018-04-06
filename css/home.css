@@ -29,6 +29,24 @@
     margin: 0 auto;
 }
 
+#partners-section {
+    text-align: center;
+    margin-top: 2rem;
+    color: #4a4a4a;
+    padding: 1rem;
+}
+
+#partners-content {
+    width: 85rem;
+    margin: 0 auto;
+}
+
+.partner {
+    width: 25rem;
+    /* float: left; */
+    margin: 1rem;
+  }
+
 section p {
     font-size: 1.5rem;
 }
