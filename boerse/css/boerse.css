@@ -16,7 +16,7 @@ section h1, section p {
     margin: 1rem auto;
 }
 
-#ort-content img {
+#ort-content iframe {
     display: block;
     width: 42.5rem;
     margin: 1rem auto;
