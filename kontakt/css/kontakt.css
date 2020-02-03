@@ -1,0 +1,17 @@
+#hero {
+    /* background-image: url('../images/hero_image.jpg'); */
+}
+
+.h1-heading {
+    color: #ffffff;
+}
+
+p.dark-theme {
+    color: #ffffff;
+}
+
+picture {
+    /* display: flex;
+    position: absolute;
+    object-fit: cover; */
+}
