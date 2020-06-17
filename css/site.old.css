@@ -1,0 +1,193 @@
+@font-face {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-style: normal;
+    src: url("../fonts/open-sans-v15-latin-regular.woff2") format("woff2"), url("../fonts/open-sans-v15-latin-regular.woff") format("woff")
+}
+@font-face {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-style: normal;
+    src: url("../fonts/open-sans-v15-latin-700.woff2") format("woff2"), url("../fonts/open-sans-v15-latin-700.woff") format("woff")
+}
+
+@font-face {
+    font-family: 'Merriweather';
+    font-weight: 400;
+    font-style: normal;
+    src: url("../fonts/merrieweather-v19-latin-regular.woff2") format("woff2"), url("../fonts/merrieweather-v19-latin-regular.woff") format("woff")
+}
+@font-face {
+    font-family: 'Merriweather';
+    font-weight: 700;
+    font-style: normal;
+    src: url("../fonts/merrieweather-v19-latin-700.woff2") format("woff2"), url("../fonts/merrieweather-v19-latin-700.woff") format("woff")
+}
+
+@font-face {
+    font-family: 'Zilla Slab';
+    font-weight: 400;
+    font-style: normal;
+    src: url("../fonts/ZillaSlab-Regular.woff2") format("woff2"), url("../fonts/ZillaSlab-Regular.woff") format("woff")
+}
+@font-face {
+    font-family: 'Zilla Slab';
+    font-weight: 700;
+    font-style: normal;
+    src: url("../fonts/ZillaSlab-Bold.woff2") format("woff2"), url("../fonts/ZillaSlab-Bold.woff") format("woff")
+}
+@font-face {
+    font-family: 'Zilla Slab';
+    font-weight: 400;
+    font-style: italic;
+    src: url("../fonts/ZillaSlab-RegularItalic.woff2") format("woff2"), url("../fonts/ZillaSlab-RegularItalic.woff") format("woff")
+}
+@font-face {
+    font-family: 'Zilla Slab';
+    font-weight: 700;
+    font-style: italic;
+    src: url("../fonts/ZillaSlab-BoldItalic.woff2") format("woff2"), url("../fonts/ZillaSlab-BoldItalic.woff") format("woff")
+}
+
+html {
+    font-size: 0.625rem;
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    padding:0;
+    margin: 0;
+}
+  
+h1 {
+    margin: 0;
+    padding: 1rem;
+    font-size: 3rem;
+    text-align: center;
+    font-family: "Zilla Slab", "Open Sans", sans-serif;
+}
+
+h2 {
+    /* margin: 0; */
+    padding: 1rem;
+    font-size: 2rem;
+    font-family: "Zilla Slab", "Open Sans", sans-serif;
+}
+
+header #navbar-button {
+    display: none;
+  }
+
+header nav {
+    float: right;
+    padding: 0;
+    margin: 4.5rem 4rem;
+  }
+
+header nav a {
+    color: #444;
+    margin: 0 1.5rem;
+    display: inline;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+header nav a:hover {
+    color: #0563b5;
+    border-bottom: 0.25rem solid #0563b5;
+}
+
+header nav a.selected {
+    color: #0563b5;
+    font-weight: bold;
+}
+
+#subnavbar {
+    padding: 0;
+    margin: 4.5rem 4rem;
+}
+
+#subnavbar a {
+    color: #444;
+    margin: 0 1.5rem;
+    display: inline;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#subnavbar a:hover {
+    color: #0563b5;
+    border-bottom: 0.25rem solid #0563b5;
+}
+
+#subnavbar a.selected {
+    color: #0563b5;
+    font-weight: bold;
+}
+
+header #logo {
+    height: 10rem;
+    margin: 1.5rem 4rem;
+}
+
+footer {
+    /* background-color: #5d9bcA; */
+    background-color: #0563b5;
+    font-size: 1.3rem;
+    padding: 1rem;
+    text-align: center;
+    color: #fff;
+    clear: both;
+}
+
+footer ul {
+    padding: 0;
+    text-align: center;
+}
+
+footer li {
+    list-style-type: none;
+    display: inline;
+    padding: 1rem;
+}
+
+footer li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer li a:hover {
+    text-decoration: underline;
+}
+
+.button {
+    width: 20rem;
+    display: block;
+    font-weight: 600;
+    color: #4a4a4a;
+    padding: 0.75rem;
+    font-size: 1.8rem;
+    margin: 2rem auto;
+    text-decoration: none;
+    border-radius: 0.125rem;
+    text-transform: uppercase;
+    background-color: #FFCE36;
+    border-bottom: solid 0.125rem rgba(0,0,0,.3);
+}
+
+.column {
+    width: 50%;
+    float: left;
+    text-align: left;
+    margin: 1rem auto;
+}
+
+.column p {
+    display: block;
+    max-width: 40rem;
+    margin: 1.5rem auto;
+}

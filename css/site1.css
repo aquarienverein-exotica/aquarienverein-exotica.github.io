@@ -79,8 +79,8 @@ h1, h2, h3, h4, h5, h6, legend {
 }
 
 .nav-logo img {
-    height: 90px; 
-    width: 90px;
+    height: 130px;
+    width: 300px;
     /* background-repeat: no-repeat; */
     /* background-image: url(../images/logo.svg); */
 }
@@ -115,14 +115,14 @@ h1, h2, h3, h4, h5, h6, legend {
     border-color: #007cc4;
 }
 
-.content {
+/* .content {
     margin: 0 auto;
     min-width: 304px;
     max-width: 1420px;
     padding: 24px 96px;
     position: relative;
     box-sizing: border-box;
-}
+} */
 
 .footer {
     width: 100%;
@@ -179,3 +179,116 @@ h1, h2, h3, h4, h5, h6, legend {
 .footer-list li {
     list-style-type: none;
 }
+
+.headerContainer {
+    /* top: 0em;
+    left: 0em;
+    right: 0em;
+    position: fixed; */
+    display: flex;
+    flex-wrap: wrap;
+    padding: 24px 15px;
+    background-color: #ffffff;
+    justify-content: space-between;
+  }
+  
+  .headerContainer img {
+    width: 260px;
+      height: 85px; 
+  }
+  
+  .navigation-bar {
+    width: 100%;
+    display: none;
+  }
+  
+  .navigation-bar.is-active {
+    display: block;
+  }
+  
+  .navigation-logo {
+  }
+  
+  .navigation-menu-button {
+    width: 32px;
+    border: none;
+    height: 32px;
+    margin: -4px 0;
+    cursor: pointer;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-image: url("../images/navigation-menu-button.svg");
+  }
+  
+  .navigation-menu-button.is-active {
+    border-radius: 4px;
+    background-color: #ededf0;
+  }
+  
+  .navigation-menu-list {
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .navigation-menu-list li {
+    margin: 15px auto;
+    border-bottom: 1px solid #cdcdd4;
+  }
+  
+  .navigation-menu-list li a {
+    display: block;
+    min-height: 40px;
+    color: #000000;
+    font-weight: normal;
+    text-decoration: none;
+  }
+
+  .navigation-menu-list li a:hover {
+    transition:250ms ease-out;
+    color: #0060df;
+  }
+  
+  @media all and (max-width: 360px) {
+    .headerContainer img {
+      width: 210px;
+      height: 70px; 
+    }
+  }
+  
+  /* Desktop menu */
+  @media all and (min-width: 800px) {
+    .headerContainer {
+      flex-wrap: unset;
+      align-items: center;
+      justify-content: unset;
+    }
+  
+    .headerContainer img {
+      width: 303px;
+      height: 100px;
+    }
+    
+    .navigation-menu-button {
+      display: none;
+    }
+  
+    .navigation-bar {
+      display: flex;
+    }
+  
+    .navigation-menu-list {
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+    }
+  
+    .navigation-menu-list li {
+      margin: 0 5% 0 0;
+      border-bottom: none;
+    }
+  
+    .navigation-menu-list li a {
+      min-height: unset;
+    }
+  }
