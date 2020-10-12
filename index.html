@@ -1,39 +1,53 @@
+<!DOCTYPE html>
 <html>
-
-<head>
-
-
-<title>Aquarien-Verein Exotica</title>
- <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-      </head>
-
-<frameset rows="120,*" frameborder=0 border=1 framespacing=2> 
-
-  <frame src="Titel/titel.html" name="fr_title" scrolling="no" noresize frameborder=0 border=0 framespacing=0>   
-
-  <frameset cols="290,*">
-
-    <frame src="menue.html" name="fr_menu" noresize frameborder=0 border=0 framespacing=0 scrolling="auto" target="_self">
-
-    <frame src="Aktuell/start.htm" name="fr_content" noresize frameborder=0 border=0 framespacing=0 scrolling="auto" target="_blank">
-    
- 
-
-  </frameset>
-
-  <noframes>
-
-    Diese Seite verwendet Frames. Eine Version ohne Frames befindet sich momentan im Aufbau.
-
-  </noframes>
-
-<!-- <HEAD> 
-  <META HTTP-EQUIV="Refresh" CONTENT="2; URL=http://exotica.bplaced.net/index1.html"> 
-  </HEAD> 
-  <BODY> 
-    <P> 
-         <A HREF="http://exotica.bplaced.net/index1.html" TARGET="_top"></A>.
-    </P> 
-  </BODY>  -->
-</frameset>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>aquarienverein exotica</title>
+    <link rel="icon" href="images/exotica.fish.svg" type="image/png" />
+    <link rel="stylesheet" href="css/site.css">
+    <link rel="stylesheet" href="css/home.css">
+    <script src="js/site.js"></script>
+  </head>
+  <body>
+    <div class="pageWrapper">
+      <header class="headerContainer">
+        <a href="index.html">
+          <img src="images/exotica.logo.svg">
+        </a>
+        <button class="navigation-menu-button" id="navigation-menu-button"></button>
+        <nav class="navigation-bar" id="navigation-bar">
+          <ul class="navigation-menu-list">
+           <li><a href="verein/index.html">Unser Verein</a></li>
+           <li><a href="termine/index.html">Termine</a></li>
+           <li><a href="boerse/index.html">B&ouml;rse</a></li>
+           <li><a href="impressionen/index.html">Impressionen</a></li>
+           <li><a href="kontakt/index.html">Kontakt</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main class="pageMain">
+        <section class="hero-body">
+          <h1 class="hero-title">N&auml;chste Veranstaltung</h1>
+            <div class="hero-desc">
+              <h2>Vereinsabend mit Vortrag</h2>
+              <p>
+                Freitag, 02.10.2020 um 19.30 Uhr <br>
+                Gastst&auml;tte "Zur Linde", 01920 Steina
+              </p>
+              <a class="button" href="termine/index.html">Alle Veranstaltungen</a>
+            </div>
+        </section>
+      </main>
+      <footer class="customFooter">
+        <nav>
+          <ul>
+            <li><a href="datenschutz/index.html">Datenschutz</a></li>
+            <li><a href="impressum/index.html">Impressum</a></li>
+            <li><a href="https://www.facebook.com/Aquarienverein.Bretnig/" target="_blank">Facebook</a></li>
+          </ul>
+        </nav>
+      </footer>
+    </div>
+  </body>
 </html>

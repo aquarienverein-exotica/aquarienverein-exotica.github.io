@@ -1,0 +1,11 @@
+.article-cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 4em;
+  }
+
+.article-card {
+    width: 19em;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}

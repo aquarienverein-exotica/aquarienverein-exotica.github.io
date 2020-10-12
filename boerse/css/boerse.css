@@ -1,0 +1,8 @@
+.content-list {
+    padding-left: 2em;
+    list-style: decimal;
+}
+
+.content-list li {
+    padding-left: 1em;
+}

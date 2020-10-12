@@ -1,0 +1,60 @@
+.foo {
+    background-color: #f4f4f4;
+    padding-bottom: 4em;
+}
+
+.event-card {
+    width: 20em;
+    margin-bottom: 2em;
+    background-color: #ffff;
+    box-shadow: 0px 10px 12px -3px rgba(0,0,0,0.3);
+}
+
+.event-card h2 {
+  font-size: 1.5em;
+}
+
+.event-card img {
+    max-width: 20em;
+}
+
+.event-card-desc {
+    padding: 1em 0 1em 1em;
+}
+
+.event-card a {
+    color: #000;
+    text-decoration: none;
+}
+
+.content-layout {
+    display: grid;
+    padding-top: 4em; 
+}
+
+.content-layout h2 {
+  font-size: 1.25em;
+}
+
+.content-layout p {
+  margin-bottom: 1em;
+}
+
+.event-cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 4em;
+  justify-content: center;
+}
+
+@media all and (min-width: 900px) {
+  .content-layout {
+    padding-left: unset;
+    grid-template-columns: 70% 30%;
+  }
+
+  .event-card {
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+}
